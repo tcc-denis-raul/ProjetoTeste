@@ -5,4 +5,5 @@ php:
   # aliased to a recent 7.x version
   - 7.0
 
+before_script: phpenv config-add myconfig.ini
 script: phpunit --bootstrap src/Script/seleciona.php teste/script/selecionaTest.php
