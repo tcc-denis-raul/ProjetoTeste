@@ -4,9 +4,7 @@ class MainTest extends PHPUnit_Framework_TestCase
     protected $backupGlobals = false;
     protected function setUp()
     {
-        $GLOBALS['dolar']     = "2.0";
-        $base_teste           = "paloma_teste";
-        $colecao_cursos_teste = "cursos_idiomas_teste";
+        $GLOBALS['dolar'] = "2.0";
     }
     public function testPossuiCaracteristicaNumber()
     {

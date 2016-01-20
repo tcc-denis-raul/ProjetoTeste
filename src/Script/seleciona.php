@@ -71,7 +71,7 @@ class Main
     public function getCursos()
     {
         global $db, $colecao_cursos;
-        if ($_SERVER['REQUEST_METHOD'] == "POST") {
+        if (!empty($_POST)) {
             $f = new Funcoes;
             //procura por todos os cursos
             $cursos = $db->$colecao_cursos->find();
