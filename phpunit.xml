@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <phpunit bootstrap="Script/autoload.php" colors="true">
-        <testsuites>
-            <testsuite name="Hello World Test Suite">
-                <directory>teste</directory>
-            </testsuite>
-        </testsuites>
-    </phpunit>

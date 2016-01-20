@@ -5,4 +5,4 @@ php:
   # aliased to a recent 7.x version
   - 7.0
 
-script: phpunit --configuration phpunit_mongodb.xml
+script: phpunit --bootstrap src/Script/seleciona.php teste/script/selecionaTest.php
